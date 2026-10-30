@@ -1,0 +1,5 @@
+window,t_start,t_end,participants,engagement,attention,movement,inactivity,speech_ratio,noise_ratio,audio_state,engagement_smooth,label
+0,0.0,10.0,1,0.722,0.631578947368421,0.8863930157329666,0.0,0.982,0.0,speech,0.722,High
+1,10.0,20.0,1,,,,,0.861,0.0,speech,0.722,High
+2,20.0,30.0,1,,,,,0.0,0.0,silence,,n/a
+3,30.0,30.4,1,,,,,,,no_audio,,n/a

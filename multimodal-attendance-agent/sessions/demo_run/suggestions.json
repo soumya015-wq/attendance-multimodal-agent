@@ -1,0 +1,152 @@
+{
+  "summary": {
+    "mean_engagement": 0.682,
+    "overall_label": "Medium",
+    "trend_per_window": -0.0137,
+    "trend": "falling",
+    "share_high": 0.533,
+    "share_medium": 0.133,
+    "share_low": 0.333,
+    "peak_window": "00:00-00:10",
+    "peak_value": 1.0,
+    "lowest_window": "01:30-01:40",
+    "lowest_value": 0.363,
+    "session_length": "02:30"
+  },
+  "suggestions": [
+    {
+      "rule_id": "sustained_low",
+      "priority": "high",
+      "category": "interaction",
+      "title": "Extended low-engagement period",
+      "message": "Engagement stayed low from 00:50 to 01:40 (average 0.41). Consider introducing an interactive activity - a quick poll, think-pair-share or a short worked problem - or revisiting the material from a different angle.",
+      "time_range": "00:50-01:40",
+      "evidence": {
+        "avg_engagement": 0.407,
+        "avg_attention": 0.383,
+        "windows": 5
+      }
+    },
+    {
+      "rule_id": "fatigue",
+      "priority": "medium",
+      "category": "pacing",
+      "title": "Engagement declined over the session",
+      "message": "Average engagement was 0.75 in the first half and 0.62 in the second. Consider a short break or energiser near 01:10, or moving demanding content earlier and lighter, practice-based work later.",
+      "time_range": "second half",
+      "evidence": {
+        "first_half": 0.751,
+        "second_half": 0.622
+      }
+    },
+    {
+      "rule_id": "peak",
+      "priority": "info",
+      "category": "positive",
+      "title": "Effective teaching segment",
+      "message": "Engagement peaked between 00:00 and 00:40 (average 0.95). Reflect on what you were doing then - the format, pace or interaction - and consider reusing it.",
+      "time_range": "00:00-00:40",
+      "evidence": {
+        "avg_engagement": 0.952
+      }
+    },
+    {
+      "rule_id": "long_silence",
+      "priority": "info",
+      "category": "interaction",
+      "title": "Long stretch with little spoken interaction",
+      "message": "There was almost no speech from 00:40 to 01:50. If that was not intentional (e.g. silent work), questions, discussion prompts or pair talk could re-open participation.",
+      "time_range": "00:40-01:50",
+      "evidence": {}
+    },
+    {
+      "rule_id": "peak",
+      "priority": "info",
+      "category": "positive",
+      "title": "Effective teaching segment",
+      "message": "Engagement peaked between 01:50 and 02:30 (average 0.81). Reflect on what you were doing then - the format, pace or interaction - and consider reusing it.",
+      "time_range": "01:50-02:30",
+      "evidence": {
+        "avg_engagement": 0.806
+      }
+    },
+    {
+      "rule_id": "noise_interval",
+      "priority": "info",
+      "category": "classroom-management",
+      "title": "Noisy interval",
+      "message": "Noise was elevated between 02:10 and 02:30 (engagement averaged 0.78). A classroom-management cue such as a reset signal might help here.",
+      "time_range": "02:10-02:30",
+      "evidence": {}
+    },
+    {
+      "rule_id": "early_exits",
+      "priority": "info",
+      "category": "attendance",
+      "title": "Early departures",
+      "message": "1 participant(s) were no longer visible for the final part of the session. Consider sharing a closing summary or materials afterwards.",
+      "time_range": "end of session",
+      "evidence": {
+        "count": 1
+      }
+    },
+    {
+      "rule_id": "late_arrivals",
+      "priority": "info",
+      "category": "attendance",
+      "title": "Late arrivals",
+      "message": "1 participant(s) joined after the first 00:12. A brief recap of key points once they settle can help them catch up.",
+      "time_range": "start of session",
+      "evidence": {
+        "count": 1
+      }
+    }
+  ],
+  "trace": [
+    {
+      "rule": "audio_missing",
+      "fired": false,
+      "reason": "audio present"
+    },
+    {
+      "rule": "sustained_low",
+      "fired": true,
+      "reason": "1 run(s) of >= 3 low windows"
+    },
+    {
+      "rule": "sharp_drop",
+      "fired": false,
+      "reason": "no sharp drops"
+    },
+    {
+      "rule": "fatigue",
+      "fired": true,
+      "reason": "declining"
+    },
+    {
+      "rule": "noise",
+      "fired": true,
+      "reason": "noisy share=13%"
+    },
+    {
+      "rule": "silence",
+      "fired": true,
+      "reason": "1 long silent run(s)"
+    },
+    {
+      "rule": "peak",
+      "fired": true,
+      "reason": "2 peak segment(s)"
+    },
+    {
+      "rule": "late_early",
+      "fired": true,
+      "reason": "late=1 early=1"
+    },
+    {
+      "rule": "all_good",
+      "fired": false,
+      "reason": "not mostly high"
+    }
+  ]
+}

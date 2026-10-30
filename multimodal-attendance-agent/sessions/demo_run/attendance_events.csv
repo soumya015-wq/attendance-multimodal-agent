@@ -1,0 +1,12 @@
+participant,event,timestamp,t_seconds
+P1,appeared,2026-10-25 11:16:07,0.0
+P2,appeared,2026-10-25 11:16:07,0.0
+P3,appeared,2026-10-25 11:16:22,15.0
+P1,attendance_confirmed,2026-10-25 11:16:26,19.8
+P2,attendance_confirmed,2026-10-25 11:16:26,19.8
+P3,attendance_confirmed,2026-10-25 11:16:41,34.8
+P4,appeared,2026-10-25 11:17:02,55.0
+P4,left,2026-10-25 11:17:07,60.0
+P1,left,2026-10-25 11:17:57,110.0
+P2,left,2026-10-25 11:18:37,150.0
+P3,left,2026-10-25 11:18:37,150.0

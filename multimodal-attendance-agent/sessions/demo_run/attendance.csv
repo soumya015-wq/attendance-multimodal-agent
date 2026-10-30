@@ -1,0 +1,5 @@
+participant,track_id,status,marked_present,presence_seconds,presence_pct,first_seen,last_seen,first_seen_s,last_seen_s,segments
+P1,1,Present,True,110.0,73.3,2026-10-25 11:16:07,2026-10-25 11:17:57,0.0,110.0,1
+P2,2,Present,True,150.0,100.0,2026-10-25 11:16:07,2026-10-25 11:18:37,0.0,150.0,1
+P3,3,Present,True,135.0,90.0,2026-10-25 11:16:22,2026-10-25 11:18:37,15.0,150.0,1
+P4,4,Absent (below threshold),False,5.0,3.3,2026-10-25 11:17:02,2026-10-25 11:17:07,55.0,60.0,1

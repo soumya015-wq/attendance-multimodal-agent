@@ -1,0 +1,54 @@
+{
+  "participant": "P1",
+  "attendance": {
+    "status": "Present",
+    "presence_seconds": 7.6,
+    "presence_pct": 25.0,
+    "first_seen": "2026-10-25 18:28:41",
+    "last_seen": "2026-10-25 18:28:48",
+    "times_stepped_out": 0
+  },
+  "engagement": {
+    "mean": 0.722,
+    "label": "High",
+    "consistency": 1.0,
+    "share_high": 0.25,
+    "share_medium": 0,
+    "share_low": 0,
+    "focus_periods": [
+      "00:00-00:10"
+    ],
+    "distraction_periods": [],
+    "timeline": [
+      {
+        "t_start": 0.0,
+        "t_end": 10.0,
+        "engagement": 0.722,
+        "label": "High"
+      },
+      {
+        "t_start": 10.0,
+        "t_end": 20.0,
+        "engagement": null,
+        "label": "n/a"
+      },
+      {
+        "t_start": 20.0,
+        "t_end": 30.0,
+        "engagement": null,
+        "label": "n/a"
+      },
+      {
+        "t_start": 30.0,
+        "t_end": 30.4,
+        "engagement": null,
+        "label": "n/a"
+      }
+    ]
+  },
+  "notes": [
+    "You were present for 00:08 (25% of the session).",
+    "Your longest high-focus stretch was 00:00-00:10. Notice what helped you concentrate then.",
+    "Your engagement was steady through the session."
+  ]
+}

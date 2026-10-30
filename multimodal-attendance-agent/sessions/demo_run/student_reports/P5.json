@@ -1,0 +1,103 @@
+{
+  "participant": "P5",
+  "attendance": {
+    "status": "Present",
+    "presence_seconds": 105.0,
+    "presence_pct": 87.5,
+    "first_seen": "2026-10-25 10:55:27",
+    "last_seen": "2026-10-25 10:57:12",
+    "times_stepped_out": 0
+  },
+  "engagement": {
+    "mean": 0.807,
+    "label": "High",
+    "consistency": 0.508,
+    "share_high": 0.583,
+    "share_medium": 0.333,
+    "share_low": 0,
+    "focus_periods": [
+      "00:10-00:40",
+      "01:20-02:00"
+    ],
+    "distraction_periods": [],
+    "timeline": [
+      {
+        "t_start": 0.0,
+        "t_end": 10.0,
+        "engagement": null,
+        "label": "n/a"
+      },
+      {
+        "t_start": 10.0,
+        "t_end": 20.0,
+        "engagement": 0.958,
+        "label": "High"
+      },
+      {
+        "t_start": 20.0,
+        "t_end": 30.0,
+        "engagement": 0.958,
+        "label": "High"
+      },
+      {
+        "t_start": 30.0,
+        "t_end": 40.0,
+        "engagement": 0.958,
+        "label": "High"
+      },
+      {
+        "t_start": 40.0,
+        "t_end": 50.0,
+        "engagement": 0.669,
+        "label": "Medium"
+      },
+      {
+        "t_start": 50.0,
+        "t_end": 60.0,
+        "engagement": 0.598,
+        "label": "Medium"
+      },
+      {
+        "t_start": 60.0,
+        "t_end": 70.0,
+        "engagement": 0.668,
+        "label": "Medium"
+      },
+      {
+        "t_start": 70.0,
+        "t_end": 80.0,
+        "engagement": 0.489,
+        "label": "Medium"
+      },
+      {
+        "t_start": 80.0,
+        "t_end": 90.0,
+        "engagement": 1.0,
+        "label": "High"
+      },
+      {
+        "t_start": 90.0,
+        "t_end": 100.0,
+        "engagement": 1.0,
+        "label": "High"
+      },
+      {
+        "t_start": 100.0,
+        "t_end": 110.0,
+        "engagement": 0.794,
+        "label": "High"
+      },
+      {
+        "t_start": 110.0,
+        "t_end": 120.0,
+        "engagement": 0.789,
+        "label": "High"
+      }
+    ]
+  },
+  "notes": [
+    "You were present for 01:45 (88% of the session).",
+    "Your longest high-focus stretch was 01:20-02:00. Notice what helped you concentrate then.",
+    "Your engagement showed some natural ups and downs."
+  ]
+}

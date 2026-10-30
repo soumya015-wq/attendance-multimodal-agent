@@ -1,0 +1,5 @@
+window,t_start,t_end,mean_db,noise_floor_db,speech_ratio,noise_ratio,audio_state
+0,0.0,10.0,-36.48,-160.0,0.982,0.0,speech
+1,10.0,20.0,-53.88,-160.0,0.861,0.0,speech
+2,20.0,30.0,-160.0,-160.0,0.0,0.0,silence
+3,30.0,30.4,,-160.0,,,no_audio

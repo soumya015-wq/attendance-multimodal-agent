@@ -1,0 +1,18 @@
+# ---- Computer vision (face detection, tracking, head pose) ----
+opencv-python>=4.8,<5
+mediapipe>=0.10.14          # legacy `solutions` API (face detection + face mesh); OpenCV Haar is used automatically if unavailable
+# ---- Audio signal processing ----
+librosa>=0.10,<1.0
+soundfile>=0.12
+sounddevice>=0.4            # optional: live microphone capture
+imageio-ffmpeg>=0.4         # bundled ffmpeg binary, used to pull audio out of video files
+# ---- Data processing / analytics ----
+numpy>=1.24,<2              # mediapipe 0.10.14 requires numpy<2
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7             # charts embedded in the offline HTML report
+# ---- Dashboard ----
+streamlit>=1.30
+# ---- Testing / demo ----
+pytest>=7.4
+scikit-image>=0.21          # only used by scripts/make_demo.py (public-domain sample face)

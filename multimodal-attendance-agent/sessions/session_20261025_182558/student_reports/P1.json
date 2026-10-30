@@ -1,0 +1,124 @@
+{
+  "participant": "P1",
+  "attendance": {
+    "status": "Present",
+    "presence_seconds": 110.0,
+    "presence_pct": 73.3,
+    "first_seen": "2026-10-25 18:25:58",
+    "last_seen": "2026-10-25 18:27:48",
+    "times_stepped_out": 0
+  },
+  "engagement": {
+    "mean": 0.621,
+    "label": "Medium",
+    "consistency": 0.17,
+    "share_high": 0.267,
+    "share_medium": 0,
+    "share_low": 0.467,
+    "focus_periods": [
+      "00:00-00:40"
+    ],
+    "distraction_periods": [
+      "00:40-01:50"
+    ],
+    "timeline": [
+      {
+        "t_start": 0.0,
+        "t_end": 10.0,
+        "engagement": 1.0,
+        "label": "High"
+      },
+      {
+        "t_start": 10.0,
+        "t_end": 20.0,
+        "engagement": 1.0,
+        "label": "High"
+      },
+      {
+        "t_start": 20.0,
+        "t_end": 30.0,
+        "engagement": 1.0,
+        "label": "High"
+      },
+      {
+        "t_start": 30.0,
+        "t_end": 40.0,
+        "engagement": 1.0,
+        "label": "High"
+      },
+      {
+        "t_start": 40.0,
+        "t_end": 50.0,
+        "engagement": 0.417,
+        "label": "Low"
+      },
+      {
+        "t_start": 50.0,
+        "t_end": 60.0,
+        "engagement": 0.444,
+        "label": "Low"
+      },
+      {
+        "t_start": 60.0,
+        "t_end": 70.0,
+        "engagement": 0.416,
+        "label": "Low"
+      },
+      {
+        "t_start": 70.0,
+        "t_end": 80.0,
+        "engagement": 0.444,
+        "label": "Low"
+      },
+      {
+        "t_start": 80.0,
+        "t_end": 90.0,
+        "engagement": 0.416,
+        "label": "Low"
+      },
+      {
+        "t_start": 90.0,
+        "t_end": 100.0,
+        "engagement": 0.44,
+        "label": "Low"
+      },
+      {
+        "t_start": 100.0,
+        "t_end": 110.0,
+        "engagement": 0.256,
+        "label": "Low"
+      },
+      {
+        "t_start": 110.0,
+        "t_end": 120.0,
+        "engagement": null,
+        "label": "n/a"
+      },
+      {
+        "t_start": 120.0,
+        "t_end": 130.0,
+        "engagement": null,
+        "label": "n/a"
+      },
+      {
+        "t_start": 130.0,
+        "t_end": 140.0,
+        "engagement": null,
+        "label": "n/a"
+      },
+      {
+        "t_start": 140.0,
+        "t_end": 150.0,
+        "engagement": null,
+        "label": "n/a"
+      }
+    ]
+  },
+  "notes": [
+    "You were present for 01:50 (73% of the session).",
+    "Your longest high-focus stretch was 00:00-00:40. Notice what helped you concentrate then.",
+    "Focus dipped around 00:40-01:50. A short stretch or note-taking break at such moments may help.",
+    "Your engagement varied noticeably across the session.",
+    "Your engagement tapered towards the end - this is common in longer sessions."
+  ]
+}

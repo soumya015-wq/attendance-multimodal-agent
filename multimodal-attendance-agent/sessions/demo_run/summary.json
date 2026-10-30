@@ -1,0 +1,33 @@
+{
+  "session_id": "demo_run",
+  "started": "2026-10-25T11:16:07",
+  "version": "1.0.0",
+  "source": "data/demo_class.mp4",
+  "duration_seconds": 150.0,
+  "backend": "haar",
+  "audio_available": true,
+  "frames_sampled": 750,
+  "participants_detected": 4,
+  "participants_present": 3,
+  "processing_seconds": 249.8,
+  "engagement": {
+    "mean_engagement": 0.682,
+    "overall_label": "Medium",
+    "trend_per_window": -0.0137,
+    "trend": "falling",
+    "share_high": 0.533,
+    "share_medium": 0.133,
+    "share_low": 0.333,
+    "peak_window": "00:00-00:10",
+    "peak_value": 1.0,
+    "lowest_window": "01:30-01:40",
+    "lowest_value": 0.363,
+    "session_length": "02:30"
+  },
+  "privacy": {
+    "offline": true,
+    "face_images_stored": false,
+    "audio_content_stored": false,
+    "note": "Only bounding boxes, scores and aggregated audio levels are stored."
+  }
+}

@@ -1,0 +1,5 @@
+participant,window,t_start,t_end,present_ratio,attention,movement,inactivity,speech_ratio,noise_ratio,audio_state,mean_db,behaviour,visual_score,audio_score,engagement,label
+P1,0,0.0,10.0,0.76,0.631578947368421,0.8863930157329666,0.0,0.982,0.0,speech,-36.48,0.955,0.603,1.0,0.722,High
+P1,1,10.0,20.0,0.0,,,,0.861,0.0,speech,-53.88,,,1.0,,n/a
+P1,2,20.0,30.0,0.0,,,,0.0,0.0,silence,-160.0,,,0.5,,n/a
+P1,3,30.0,30.4,0.0,,,,,,no_audio,,,,,,n/a

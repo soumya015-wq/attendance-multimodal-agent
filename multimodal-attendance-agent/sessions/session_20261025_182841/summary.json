@@ -1,0 +1,33 @@
+{
+  "session_id": "session_20261025_182841",
+  "started": "2026-10-25T18:28:41",
+  "version": "1.0.0",
+  "source": "C:\\Users\\Hp\\AppData\\Local\\Temp\\tmpsx775ucq\\WhatsApp Video 2026-10-24 at 15.44.25.mp4",
+  "duration_seconds": 30.4,
+  "backend": "haar",
+  "audio_available": true,
+  "frames_sampled": 152,
+  "participants_detected": 4,
+  "participants_present": 1,
+  "processing_seconds": 56.1,
+  "engagement": {
+    "mean_engagement": 0.722,
+    "overall_label": "High",
+    "trend_per_window": NaN,
+    "trend": "steady",
+    "share_high": 0.5,
+    "share_medium": 0,
+    "share_low": 0,
+    "peak_window": "00:00-00:10",
+    "peak_value": 0.722,
+    "lowest_window": "00:00-00:10",
+    "lowest_value": 0.722,
+    "session_length": "00:30"
+  },
+  "privacy": {
+    "offline": true,
+    "face_images_stored": false,
+    "audio_content_stored": false,
+    "note": "Only bounding boxes, scores and aggregated audio levels are stored."
+  }
+}
